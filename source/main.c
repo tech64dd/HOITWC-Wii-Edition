@@ -9,10 +9,10 @@ static GXRModeObj *rmode = NULL;
 
 static char *months[] = {
 	"????",
-	"January", "February", "March",
-	"April", "May", "June", "July",
-	"August", "September", "October",
-	"November", "December"
+	"Gennaio", "Febbraio", "Marzo",
+	"Aprile", "Maggio", "Giugno", "Luglio",
+	"Agosto", "Settembre", "Ottobre",
+	"Novembre", "Dicembre"
 };
 
 static int relMon = 11;
@@ -132,7 +132,6 @@ int main(int argc, char **argv) {
 
 	int numTotalDays, numYears, numMonths, numDays;
 	int day, month, year;
-	puts("The Wii uses the PowerPC 750CL CPU, a minor iteration on the PowerPC 750\ndesign.\nThis CPU is also known as the \"G3\" from Apple.");
 	puts("La Wii usa il PowerPC 750CL come CPU, una iterazione minore sul design del PowerPC 750. \nQuesta CPU è anche conosciuta come il\"G3\" dalla Apple.");
 	printf("Il PowerPC 750 è stato rilasciato il %s %d, %d.\n", months[relMon], relDay, relYear);
 
