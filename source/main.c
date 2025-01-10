@@ -133,7 +133,8 @@ int main(int argc, char **argv) {
 	int numTotalDays, numYears, numMonths, numDays;
 	int day, month, year;
 	puts("The Wii uses the PowerPC 750CL CPU, a minor iteration on the PowerPC 750\ndesign.\nThis CPU is also known as the \"G3\" from Apple.");
-	printf("The PowerPC 750 released on %s %d, %d.\n", months[relMon], relDay, relYear);
+	puts("La Wii usa il PowerPC 750CL come CPU, una iterazione minore sul design del PowerPC 750. \nQuesta CPU è anche conosciuta come il\"G3\" dalla Apple.");
+	printf("Il PowerPC 750 è stato rilasciato il %s %d, %d.\n", months[relMon], relDay, relYear);
 
 	time_t t = time(NULL);
 	struct tm tm = *localtime(&t);
@@ -144,7 +145,7 @@ int main(int argc, char **argv) {
 
 	numTotalDays = dateDifference(relDay, relMon, relYear, day, month, year, &numDays, &numMonths, &numYears);
 	
-	printf("Today is: %s %d, %d.  It has been %d days, or %d years, %d months,\nand %d days, since the release of the PowerPC 750.\n",
+	printf("Oggi è: %s %d, %d.  Sono stati %d days, o %d anni, %d mesi,\ne %d giorni, dal rilascio del PowerPC 750\n",
 			months[month],
 			day,
 			year,
