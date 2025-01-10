@@ -1,5 +1,5 @@
-# How old is the Wii's CPU? - Wii port
+# Quanto è vecchia la CPU della Wii? - Port per la Wii
 
-Small app to tell you, based on the current system date and time, how old the Wii's CPU is.
+Piccola app per dirti, basato sulla data e ora del sistema, quanto è vecchia la CPU della Wii.
 
-Based on the default devkitPro application template.
+Basato sul template devkitPro predefinito.
