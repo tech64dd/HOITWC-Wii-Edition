@@ -1,4 +1,4 @@
-# How old is the Wii's CPU? - Wii port
+# How old is the Wii's CPU? - 3DS port
 
 Small app to tell you, based on the current system date and time, how old the Wii's CPU is.
 
